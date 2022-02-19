@@ -1,0 +1,39 @@
+.center-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .search {
+    width: 30%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .test {
+    width: 60%;
+    display: inline;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0px auto;
+  }
